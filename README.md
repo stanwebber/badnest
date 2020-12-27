@@ -1,6 +1,5 @@
 # badnest
-copy of https://github.com/USA-RedDragon/badnest
-A bad Nest integration that uses the web api to work after Works with Nest was shut down (bad Google, go sit in your corner and think about what you did)
+(copy of https://github.com/USA-RedDragon/badnest) A bad Nest integration that uses the web api to work after Works with Nest was shut down (bad Google, go sit in your corner and think about what you did)
 
 ## Why is it bad
 
