@@ -2,7 +2,7 @@
 from datetime import datetime
 import logging
 
-from homeassistant.components.climate import ClimateDevice
+from homeassistant.components.climate import ClimateEntity
 from homeassistant.components.climate.const import (
     ATTR_TARGET_TEMP_HIGH,
     ATTR_TARGET_TEMP_LOW,
@@ -78,7 +78,7 @@ async def async_setup_platform(hass,
     async_add_entities(thermostats)
 
 
-class NestClimate(ClimateDevice):
+class NestClimate(ClimateEntity):
     """Representation of a Nest climate device."""
 
     def __init__(self, device_id, api):
